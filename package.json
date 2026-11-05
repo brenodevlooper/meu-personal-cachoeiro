@@ -1,0 +1,15 @@
+{
+  "name": "meu-personal-cachoeiro",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "App de treino montado para a academia do aluno, acompanhado por personal com CREF.",
+  "scripts": {
+    "dev": "npx --yes http-server -p 5620 -c-1 .",
+    "seed": "node scripts/gerar-seed.mjs",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "devDependencies": {
+    "@electric-sql/pglite": "0.2.17"
+  }
+}
